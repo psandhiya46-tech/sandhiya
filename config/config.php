@@ -10,10 +10,11 @@ const DB_NAME = 'ai_buddy';
 const DB_USER = 'root';
 const DB_PASS = 'root';
 // Add your Google Gemini API key here.
-
+// const GEMINI_API_KEY = getenv'('GCP_API_KEY')';
+$apiKey = getenv('GCP_API_KEY');
 // const GEMINI_MODEL = 'gemini-2.5-flash';
 const GEMINI_MODEL = 'gemini-3.8-flash';
-const GEMINI_API_KEY = '';
+// const GEMINI_API_KEY = '';
 
 
 function db(): PDO {

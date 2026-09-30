@@ -1,0 +1,12 @@
+# secrets
+.env
+config/config.local.php
+
+# system
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
